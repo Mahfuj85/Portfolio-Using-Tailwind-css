@@ -22,33 +22,33 @@
 <body>
     <section class="">
         <!-- Header -->
-        <header class="w-[100%] h-[50px] flex justify-between items-center mx-auto py-1 shadow-2xl fixed z-20 bg-white">
+        <header class="w-[100%] md:mt-0 lg:h-[80px] lg:flex lg:justify-between items-center mx-auto py-1 shadow-2xl fixed z-20 bg-white">
             <div class="">
-                <a class="ml-6" href=""><img class="w-[60px] inline-block h-[50px]" src="./Images/new logo.png" alt=""></a>
+                <a class="ml-6" href=""><img class="w-[60px] block mx-auto block  h-[50px] lg:inline-block" src="./Images/new logo.png" alt=""></a>
             </div>
-            <nav class="flex">
-                <li class="list-none ms-4 text-xs"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Home</a></li>
-                <li class="list-none ms-4 text-xs"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Services</a></li>
-                <li class="list-none ms-4 text-xs"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">About</a></li>
-                <li class="list-none ms-4 text-xs"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Portfolio</a></li>
-                <li class="list-none ms-4 text-xs"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Testimonials</a></li>
-                <li class="list-none ms-4 text-xs"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Blog</a></li>
-                <li class="list-none ms-4 text-xs mr-5"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Contact</a></li>
+            <nav class="flex justify-center">
+                <li class="list-none ms-4 text-base"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Home</a></li>
+                <li class="list-none ms-4 text-base"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Services</a></li>
+                <li class="list-none ms-4 text-base"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">About</a></li>
+                <li class="list-none ms-4 text-base"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Portfolio</a></li>
+                <li class="list-none ms-4 text base"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Testimonials</a></li>
+                <li class="list-none ms-4 text-base"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Blog</a></li>
+                <li class="list-none ms-4 text-base mr-5"><a class="text-first font-mono hover:text-second hover:font-bold hover:underline" href="">Contact</a></li>
             </nav>
         </header>
 
-        <!-- Intro -->
-        <div class="flex justify-between mx-auto">
-            <div class="ml-10 mt-40 mb-0 me-20">
-                <h1 class="text-2xl font-medium tracking-wider text-first  font-mono">Hello, I am</h1>
-                <h1 class="text-4xl font-bold tracking-wide text-second">Mahfijur Rahman</h1>
-                <p class="text-gray-400 py-2 text-xs font-[ubuntu]">I am a front-end developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.</p>
+        <!-- Introduction -->
+        <div class="w-[40%] md:w-[90%] flex justify-start md:justify-center mx-auto">
+            <div class="ml-[-160px] md:ml-[10px] mt-40 me-1 md:me-60">
+                <h1 class="text-xl md:text-2xl font-medium tracking-wider text-first  font-mono">Hello, I am</h1>
+                <h1 class="text-lg md:text-4xl font-bold md:tracking-wide text-second">Mahfijur Rahman</h1>
+                <p class="py-2 text-base font-sans">I am a front-end developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.</p>
                 <div class="flex">
-                    <button class="text-xs tracking-wider bg-sky-200 px-5 py-1 rounded-md hover:bg-second hover:text-white hover:font-medium">Hire Me</button>
-                    <a class="ms-10 text-xs tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-medium" href="">See My Work</a>
+                    <button class="w-[135px] text-base md:tracking-wider bg-sky-200 px-5 py-1 rounded-md hover:bg-second hover:text-white hover:font-medium">Hire Me</button>
+                    <a class="w-[135px] ms-10 text-base tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-medium" href="">See My Work</a>
             </div>
             </div>
-            <div class="inline mt-40 me-10">
+            <div class="inline ms-[0px] md:ms-[-220px] mt-40 me-10">
                 <div class="box">
                     <div class="w-[270px] h-[270px] bg-first rounded-[50%] mt-[0px]"></div>
                     <div class="w-[240px] h-[240px] bg-second rounded-[50%] mt-[-255px] ml-[15px]"></div>
@@ -62,91 +62,94 @@
     <section class="container w-[100%] mx-auto mt-12 mb-20">
         <h2 class="text-second text-center text-2xl font-mono font-bold">My Expertise</h2>
         <h2 class="text-center font-bold text-3xl tracking-widest font-[ubuntu]">Provide Wide Range of <br>Digital Services</h2>
-        <div class="container w-[80%] justify-center mx-auto grid grid-cols-2 gap-4">
-            <div class="w-[100%] flex justify-between mx-auto py-3 bg-zinc-200 rounded-lg my-5 shadow-xl">
+        <div class="container w-[80%] justify-center mx-auto grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-4">
+            <div class="w-[100%] flex justify-between mx-auto py-3 bg-zinc-200 rounded-lg my-4 md:my-5 shadow-xl">
                 <div class="w-[100px] my-auto ms-3 me-15"><img src="https://png.pngtree.com/png-clipart/20230409/original/pngtree-aplication-program-interface-line-icon-png-image_9041952.png" alt="Ui/Ux Design Image"></div>
                 <div class="ms-10">
-                    <h2 class="text-[12px] font-bold text-indigo-800 tracking-widest">Ui/Ux Design</h2>
-                    <p class="text-[10px]  pe-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum quis veniam.</p>
-                    <a class="ms-0 text-xs tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-bold" href="#">Read More</a>
+                    <h2 class="text-[18px] font-bold text-indigo-800 tracking-widest">Ui/Ux Design</h2>
+                    <p class="text-base  pe-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum quis veniam.</p>
+                    <a class="ms-0 text-base tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-bold" href="#">Read More</a>
                 </div>
             </div>
-            <div class="w-[100%] flex justify-between mx-auto py-3 bg-zinc-200 rounded-lg my-5 shadow-xl">
+            <div class="w-[100%] flex justify-between mx-auto py-3 bg-zinc-200 rounded-lg my-4   md:my-5 shadow-xl">
                 <div class="w-[70px] my-auto ms-5 me-15"><img src="https://www.shareicon.net/download/2016/01/24/708248_technology_512x512.png" alt="Ui/Ux Design Image"></div>
                 <div class="ms-10">
-                    <h2 class="text-[12px] font-bold text-indigo-800 tracking-widest">Web Design</h2>
-                    <p class="text-[10px] pe-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum quis veniam.</p>
-                    <a class="ms-0 text-xs tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-bold" href="#">Read More</a>
+                    <h2 class="text-[18px] font-bold text-indigo-800 tracking-widest">Web Design</h2>
+                    <p class="text-base pe-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum quis veniam.</p>
+                    <a class="ms-0 text-base tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-bold" href="#">Read More</a>
                 </div>
             </div>
-            <div class="w-[100%] flex justify-between mx-auto py-3 bg-zinc-200 rounded-lg shadow-xl">
+            <div class="w-[100%] flex justify-between mx-auto py-3 bg-zinc-200 rounded-lg my-4 shadow-xl">
                 <div class="w-[70px] my-auto ms-5 me-15"><img src="https://cdn.icon-icons.com/icons2/1481/PNG/512/40web-development_102061.png" alt="Ui/Ux Design Image"></div>
                 <div class="ms-10">
-                    <h2 class="text-[12px] font-bold text-indigo-800 tracking-widest">Web Development</h2>
-                    <p class="text-[10px] pe-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum quis veniam.</p>
-                    <a class="ms-0 text-xs tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-bold" href="#">Read More</a>
+                    <h2 class="text-[18px] font-bold text-indigo-800 tracking-widest">Web Development</h2>
+                    <p class="text-base pe-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum quis veniam.</p>
+                    <a class="ms-0 text-base tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-bold" href="#">Read More</a>
                 </div>
             </div>
-            <div class="w-[100%] flex justify-between mx-auto py-3 bg-zinc-200 rounded-lg shadow-xl">
+            <div class="w-[100%] flex justify-between mx-auto py-3 bg-zinc-200 rounded-lg my-4 shadow-xl">
                 <div class="w-[70px] my-auto ms-5 me-15"><img src="https://cdn-icons-png.freepik.com/512/674/674339.png" alt="Ui/Ux Design Image"></div>
                 <div class="ms-10">
-                    <h2 class="text-[12px] font-bold text-indigo-800 tracking-widest">Game Development</h2>
-                    <p class="text-[10px] pe-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum quis veniam.</p>
-                    <a class="ms-0 text-xs tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-bold" href="#">Read More</a>
+                    <h2 class="text-[18px] font-bold text-indigo-800 tracking-widest">Game Development</h2>
+                    <p class="text-base pe-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero earum quis veniam.</p>
+                    <a class="ms-0 text-base tracking-wider hover:border-b-lime-800 hover:border-2 hover:px-1 hover:rounded-lg hover:text-second hover:font-bold" href="#">Read More</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- My Experience Section -->
+    <!-- My Skill Section -->
 
-    <section class="w-[80%] flex justify-between items-center mx-auto my-[40px] sm:ms-4">
-        <div class="w-[50%] grid grid-cols-2 ms-5 sm:w-[60%]">
-            <div class="w-[140px] h-[150px] rounded-2xl bg-violet-200 shadow-lg">
-                <div class="w-[100px] h-[100px] rounded-[50%] bg-transparent border-solid border-[3px] border-yellow-500 mx-auto mt-[20px]">
+    <section class="w-[80%] flex justify-center items-center mx-auto my-[40px]">
+        <div class="w-[60%] md:w-[50%]">
+            <div class="flex justify-between gap-4">
+                <div class="w-[140px] h-[150px] rounded-2xl bg-violet-200 shadow-lg 2xl:ms-[100px]">
+                    <div class="w-[100px] h-[100px] rounded-[50%] bg-transparent border-solid border-[3px] border-yellow-500 mx-auto mt-[20px]">
                     <h2 class="mt-[33px] ms-[25px] text-yellow-500 text-2xl font-bold">75%</h2>
+                    </div>
+                    <div class="ms-[20px] mt-[2px] text-base font-semibold">Ui/Ux Design</div>
                 </div>
-                <div class="ms-[30px] mt-[5px] text-xs font-semibold">Ui/Ux Design</div>
-            </div>
-            <div class="w-[140px] h-[150px] mt-[15px] rounded-2xl bg-violet-200 shadow-lg">
-                <div class="w-[100px] h-[100px] rounded-[50%] bg-transparent border-solid border-[3px] border-indigo-500 mx-auto mt-[20px]">
+                <div class="w-[140px] h-[150px] mt-[15px] rounded-2xl bg-violet-200 shadow-lg lg:me-[110px] xl:me-[210px]">
+                    <div class="w-[100px] h-[100px] rounded-[50%] bg-transparent border-solid border-[3px] border-indigo-500 mx-auto mt-[20px]">
                     <h2 class="mt-[33px] ms-[25px] text-indigo-500 text-2xl font-bold">95%</h2>
+                    </div>
+                    <div class="ms-[25px] mt-[2px] text-base font-semibold">Web Design</div>
                 </div>
-                <div class="ms-[35px] mt-[5px] text-xs font-semibold">Web Design</div>
             </div>
-            <div class="w-[140px] h-[150px] rounded-2xl bg-violet-200 shadow-lg">
-                <div class="w-[100px] h-[100px] rounded-[50%] bg-transparent border-solid border-[3px] border-sky-500 mx-auto mt-[20px]">
+            <div class="flex justify-between gap-4">
+                <div class="w-[140px] h-[150px] rounded-2xl bg-violet-200 shadow-lg 2xl:ms-[100px]">
+                    <div class="w-[100px] h-[100px] rounded-[50%] bg-transparent border-solid border-[3px] border-sky-500 mx-auto mt-[20px]">
                     <h2 class="mt-[33px] ms-[25px] text-sky-500 text-2xl font-bold">85%</h2>
+                    </div>
+                    <div class="ms-[1px] mt-[1px] text-[16px] font-semibold">Web Development</div>
                 </div>
-                <div class="ms-[20px] mt-[5px] text-xs font-semibold">Web Development</div>
-            </div>
-                <div class="w-[140px] h-[150px] mt-[15px] rounded-2xl bg-violet-200 shadow-lg">
-                <div class="w-[100px] h-[100px] rounded-[50%] bg-transparent border-solid border-[3px] border-teal-700 mx-auto mt-[20px]">
+                <div class="w-[140px] h-[150px] mt-[15px] rounded-2xl bg-violet-200 shadow-lg  lg:me-[110px] xl:me-[210px]">
+                    <div class="w-[100px] h-[100px] rounded-[50%] bg-transparent border-solid border-[3px] border-teal-700 mx-auto mt-[20px]">
                     <h2 class="mt-[33px] ms-[25px] text-teal-700 text-2xl font-bold">80%</h2>
+                    </div>
+                    <div class="ms-[1px] mt-[0px] text-[15px] font-semibold">Game Development</div>
                 </div>
-                <div class="ms-[15px] mt-[5px] text-xs font-semibold">Game Development</div>
-                </div></div>
             </div>
         </div>
-        <div class="w-[50%] sm:w-[40%]">
+        <div class="w-[40%] md:w-[50%] ms-5 md:ms-6">
             <h2 class="text-second text-left text-2xl font-mono font-bold">My Skills</h2>
             <h2 class="text-left font-sans font-bold text-3xl tracking-widest mb-[10px]">Beautiful & Unique <br>Digital Experiences</h2>
-            <p class="text-xs font-mono text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa reprehenderit nam amet iusto tenetur officiis culpa, minus fugit perferendis.  <br> <br>Debitis ipsum voluptates, expedita explicabo, laudantium dolorem blanditiis libero eveniet.</p>
+            <p class="text-base font-mono text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa reprehenderit nam amet iusto tenetur officiis culpa, minus fugit perferendis.  <br> <br>Debitis ipsum voluptates, expedita explicabo, laudantium dolorem blanditiis libero eveniet.</p>
             <button class="bg-amber-500 px-[20px] py-[10px] rounded-3xl text-xs text-white my-[15px] font-semibold hover:bg-second hover:text-first">Download CV</button>
         </div>
 
     </section>
 
-    <!-- Works Section -->
+    <!-- Creative Works Section -->
     <section class="bg-second mt-[80px] mb-[40px] h-[300px]">
         <h2 class="text-center text-white pt-[60px] font-mono font-semibold">Creative Works</h2>
         <h2 class="text-center text-white pt-[10px] font-sans font-bold text-3xl tracking-widest">Check My Portfolio</h2>
         <nav class="flex justify-center mx-auto my-4">
-                <li class="list-none ms-10 text-sm tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">All</a></li>
-                <li class="list-none ms-10 text-sm tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">Products</a></li>
-                <li class="list-none ms-10 text-sm tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">Web App</a></li>
-                <li class="list-none ms-10 text-sm tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">Inetraction</a></li>
-                <li class="list-none ms-10 text-sm tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">Brand Identity</a></li>
+                <li class="list-none ms-4 md:ms-10 text-base tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">All</a></li>
+                <li class="list-none ms-4 md:ms-10 text-base tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">Products</a></li>
+                <li class="list-none ms-4 md:ms-10 text-base tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">Web App</a></li>
+                <li class="list-none ms-4 md:ms-10 text-base tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">Inetraction</a></li>
+                <li class="list-none ms-4 md:ms-10 text-base tracking-wide font-serif  mb-6"><a class="text-white pb-1 hover:text-yellow-400 hover:underline" href="">Brand Identity</a></li>
         </nav>
         <div class="w-[80%] flex justify-center mx-auto gap-4">
             <div class="w-[70%]  mb-[40px]">
@@ -170,11 +173,11 @@
     </section>
 
     <!-- Testimonial Section -->
-    <section class="mt-[320px] mb-10">
-        <div class="w-[250px] h-[250px] rounded-[50%] bg-second ms-[-180px]">
+    <section class="mt-[350px] mb-10">
+        <div class="w-[225px] md:w-[250px] h-[225px] md:h-[250px] rounded-[50%] bg-second ms-[-180px]">
             circle box
         </div>
-        <div class="w-[70%] flex justify-between mx-auto">
+        <div class="w-[70%] flex justify-between ms-20 md:mx-auto">
             <div class="">
                 <img class="w-[40px] h-[40px] rounded-[50%] mt-[-200px]" src="https://i.pinimg.com/474x/03/ab/0f/03ab0f29b270547bc405747b9ecde38d.jpg" alt="Image of CEO">
                 <img class="w-[60px] h-[60px] rounded-[50%] ms-[60px] mt-[-70px]" src="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ae052f468-0005-4132-9d56-cbca761a9f7c?source=next-article&fit=scale-down&quality=highest&width=1440&dpr=1" alt="Image of CEO">
@@ -185,120 +188,115 @@
                 <img class="w-[40px] h-[40px] rounded-[50%] ms-[140px] mt-[-20px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvspp8xjRrqt-20J1O8kp7IPIntCLClHCLPg&usqp=CAU" alt="Image of CEO">
             </div>
             <div class="ms-[140px] mt-[-240px]">
-                <h2 class="text-sm font-semibold font-mono text-second">Testimonials</h2>
-                <h2 class="font-sans text-3xl font-bold mb-[5px]">Happy Clients Feedback</h2>
-                <!-- <i class="ri-double-quotes-l"></i> -->
+                <h2 class="text-base font-semibold font-mono text-second">Testimonials</h2>
+                <h2 class="font-sans text-2xl md:text-3xl font-bold mb-[5px]">Happy Clients Feedback</h2>
                 <svg class="w-[30px] h-[30px] text-amber-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.58341 17.3211C3.55316 16.2274 3 15 3 13.0103C3 9.51086 5.45651 6.37366 9.03059 4.82318L9.92328 6.20079C6.58804 8.00539 5.93618 10.346 5.67564 11.822C6.21263 11.5443 6.91558 11.4466 7.60471 11.5105C9.40908 11.6778 10.8312 13.159 10.8312 15C10.8312 16.933 9.26416 18.5 7.33116 18.5C6.2581 18.5 5.23196 18.0095 4.58341 17.3211ZM14.5834 17.3211C13.5532 16.2274 13 15 13 13.0103C13 9.51086 15.4565 6.37366 19.0306 4.82318L19.9233 6.20079C16.588 8.00539 15.9362 10.346 15.6756 11.822C16.2126 11.5443 16.9156 11.4466 17.6047 11.5105C19.4091 11.6778 20.8312 13.159 20.8312 15C20.8312 16.933 19.2642 18.5 17.3312 18.5C16.2581 18.5 15.232 18.0095 14.5834 17.3211Z"></path></svg>
-                <p class="ms-[35px] mt-[-27px] text-xs text-indigo-400">Omnis asperiores, ipsum eius vel quia optio adipisci fuga accusamus nesciunt sequi possimus labore minima aliquam, aperiam, culpa dicta velit. Temporibus provident molestiae praesentium optio culpa quisquam odio nihil. Et debitis, ab culpa rem nihil voluptate nesciunt!</p>
-                <h2 class="ms-[35px] mt-[10px] text-xs font-semibold font-serif">Kevin Andrew</h2>
-                <h2 class="ms-[35px] mt-[1px] text-xs text-indigo-300 font-mono">CEO of the company</h2>
+                <p class="ms-[35px] mt-[-27px] text-sm md:text-base text-indigo-400">Omnis asperiores, ipsum eius vel quia optio adipisci fuga accusamus nesciunt sequi possimus labore minima aliquam, aperiam, culpa dicta velit. Temporibus provident molestiae praesentium optio culpa quisquam odio nihil. Et debitis, ab culpa rem nihil voluptate nesciunt!</p>
+                <h2 class="ms-[35px] mt-[10px] text-base font-semibold font-serif">Kevin Andrew</h2>
+                <h2 class="ms-[35px] mt-[1px] text-sm md:text-base text-indigo-300 font-mono">CEO of the company</h2>
                 <a class="" href=""><svg class="w-[20px] h-[20px] ms-[35px] rounded-[50%] mt-[10px] bg-amber-500 hover:bg-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></a>
                 <a class="" href=""><svg class="w-[20px] h-[20px] ms-[100px] mt-[-20px] rounded-[50%] bg-amber-500 hover:bg-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a>
-                
-
             </div>
         </div>
     </section>
 
-    <!-- Blog Section -->
+    <!-- Blog & Article Section -->
     <section class="bg-lime-100 mt-[60px] mb-[40px]">
-        <h2 class="pt-[40px] text-center font-mono text-second text-sm font-semibold">Latest News</h2>
+        <h2 class="pt-[40px] text-center font-mono text-second text-base font-semibold">Latest News</h2>
         <h2 class="text-center py-[5px] font-serif text-2xl font-bold">Blog & Articles</h2>
-        <div class="w-[80%] flex justify-center gap-3 mx-auto]  mt-8">
-            <div class="w-[33.33%] bg-white rounded-2xl ms-[160px] mb-[40px]">
+        <div class="w-[80%] lg:w-[100%] lg:flex justify-center gap-3 lg:mx-auto md:ms-[10px] lg:ms-[-80px] mt-8">
+            <div class="w-[70%]  lg:w-[33.33%] bg-white rounded-2xl mx-auto sm:ms-[140px] md:ms-[160px] mb-[40px]">
                 <img class="rounded-2xl mt-0 h-[130px] w-full" src="https://static.vecteezy.com/system/resources/previews/009/311/715/large_2x/smiling-girl-in-headphones-sit-at-desk-look-at-laptop-screen-study-online-happy-smart-young-woman-in-earphones-take-web-course-or-training-on-computer-distant-education-concept-free-photo.jpg" alt="">
                 <div class="w-[90%] flex justify-between mx-auto">
-                    <h2 class="text-[10px] text-second font-medium mt-[10px]">By David William</h2>
-                    <h2 class="text-[10px] text-second font-medium mt-[10px]">Jan 8, 2024</h2>
+                    <h2 class="text-base text-second font-medium mt-[10px]">By David William</h2>
+                    <h2 class="text-base text-second font-medium mt-[10px]">Jan 8, 2024</h2>
                 </div>
-                <h2 class="ms-[11px] text-[17px] text-first font-bold font-serif mt-[10px]">Quos ipsam accusantium cum cumque dolore.</h2>
-                <p class="ms-[11px] text-[10px] text-pink-300 font-medium mt-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque inventore consectetur asperiores, officia vitae minus, esse tempore, aliquam suscipit sed earum atque voluptates molestias cumque omnis laborum eaque minima id assumenda. Tempore, voluptatibus.</p>
-                <a class="ms-[11px] text-[12px] font-mono pb-[20px] hover:text-second hover:text-sm hover:font-semibold" href="">Read More</a>
+                <h2 class="ms-[11px] text-[20px] text-first font-bold font-serif mt-[10px]">Aliquam suscipit sed earum atque voluptates molestias cumque. </h2>
+                <p class="ms-[11px] text-base text-pink-300 font-medium mt-[10px]">Quos ipsam accusantium cum cumque dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque inventore consectetur asperiores, officia vitae minus, esse tempore, aliquam suscipit sed earum atque voluptates molestias cumque omnis laborum eaque minima id assumenda. Tempore, voluptatibus.</p>
+                <a class="ms-[11px] text-base font-mono pb-[20px] hover:text-second hover:text-sm hover:font-semibold" href="">Read More</a>
             </div>
-            <div class="w-[33.33%] bg-white rounded-2xl mb-[40px]">
+            <div class="w-[70%] lg:w-[33.33%] bg-white rounded-2xl sm:ms-[140px] lg:mx-auto md:ms-[158px] mb-[40px]">
                 <img class="rounded-2xl mt-0 h-[130px] w-full" src="https://as1.ftcdn.net/v2/jpg/06/01/97/54/1000_F_601975410_GRZxmV0nTxDUJ7Hg604d1VT8q9Ki6UQ0.jpg" alt="">
                 <div class="w-[90%] flex justify-between mx-auto">
-                    <h2 class="text-[10px] text-second font-medium mt-[10px]">By David William</h2>
-                    <h2 class="text-[10px] text-second font-medium mt-[10px]">Jan 8, 2024</h2>
+                    <h2 class="text-base text-second font-medium mt-[10px]">By Darren Bowse</h2>
+                    <h2 class="text-base text-second font-medium mt-[10px]">Jan 28, 2024</h2>
                 </div>
-                <h2 class="ms-[11px] text-[17px] text-first font-bold font-serif mt-[10px]">Quos ipsam accusantium cum cumque dolore.</h2>
-                <p class="ms-[11px] text-[10px] text-pink-300 font-medium mt-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque inventore consectetur asperiores, officia vitae minus, esse tempore, aliquam suscipit sed earum atque voluptates molestias cumque omnis laborum eaque minima id assumenda. Tempore, voluptatibus.</p>
-                <a class="ms-[11px] text-[12px] font-mono pb-[20px] hover:text-second hover:text-sm hover:font-semibold" href="">Read More</a>
+                <h2 class="ms-[11px] text-[20px] text-first font-bold font-serif mt-[10px]">Quos ipsam accusantium cum cumque dolore.</h2>
+                <p class="ms-[11px] text-base text-pink-300 font-medium mt-[10px]">Accusamus totam nemo eveniet est! Illum odio molestias obcaecati voluptatum voluptatibus, porro non nemo, distinctio ab quos maxime autem alias earum amet sit! In deleniti accusamus ut neque est voluptate libero unde! Neque inventore consectetur asperiores, officia vitae minus, esse tempore, aliquam suscipit sed earum atque voluptates.</p>
+                <a class="ms-[11px] text-base font-mono pb-[20px] hover:text-second hover:text-sm hover:font-semibold" href="">Read More</a>
             </div>
-            <div class="w-[33.33%] bg-white rounded-2xl mb-[40px]">
+            <div class="w-[70%] lg:w-[33.33%] bg-white rounded-2xl sm:ms-[140px] lg:mx-auto md:ms-[158px] mb-[40px]">
                 
                 <img class="rounded-2xl mt-0 h-[130px] w-full" src="https://cdn.thewirecutter.com/wp-content/media/2023/07/work-from-anywhere-2048px-1254993875-3x2-1.jpg?auto=webp&quality=75&crop=3:2&width=1024" alt="">
                 <div class="w-[90%] flex justify-between mx-auto">
-                    <h2 class="text-[10px] text-second font-medium mt-[10px]">By David William</h2>
-                    <h2 class="text-[10px] text-second font-medium mt-[10px]">Jan 8, 2024</h2>
+                    <h2 class="text-base text-second font-medium mt-[10px]">By Mark Steven</h2>
+                    <h2 class="text-base text-second font-medium mt-[10px]">Feb 16, 2024</h2>
                 </div>
-                <h2 class="ms-[11px] text-[17px] text-first font-bold font-serif mt-[10px]">Quos ipsam accusantium cum cumque dolore.</h2>
-                <p class="ms-[11px] text-[10px] text-pink-300 font-medium mt-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque inventore consectetur asperiores, officia vitae minus, esse tempore, aliquam suscipit sed earum atque voluptates molestias cumque omnis laborum eaque minima id assumenda. Tempore, voluptatibus.</p>
-                <a class="ms-[11px] text-[12px] font-mono pb-[20px] hover:text-second hover:text-sm hover:font-semibold" href="">Read More</a>
+                <h2 class="ms-[11px] text-[20px] text-first font-bold font-serif mt-[10px]">Officia incidunt nobis sapiente iure non quos modi laborum quas eos</h2>
+                <p class="ms-[11px] text-base text-pink-300 font-medium mt-[10px]">Voluptates blanditiis quo, praesentium aut id deserunt accusantium doloribus at eveniet earum nemo aliquam molestiae quia ab facilis beatae rem. .Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque inventore consectetur asperiores, officia vitae minus, esse tempore, aliquam suscipit sed.</p>
+                <a class="ms-[11px] text-base font-mono pb-[20px] hover:text-second hover:text-sm hover:font-semibold" href="">Read More</a>
             </div>
         </div>
-
-
     </section>
 
-    <!-- Contact Section -->
+    <!-- Get in Touch Section -->
     <section class="">
-        <h2 class="text-center text-second text-sm font-mono font-semibold">Get in Touch</h2>
+        <h2 class="text-center text-second text-base font-mono font-semibold">Get in Touch</h2>
         <h2 class="text-center text-3xl font-sans font-bold tracking-widest">Any Question? Feel Free <br>to Contact</h2>
-        <div class="w-[80%] flex justify-center gap-4 mx-auto mt-10">
-            <div class="w-[32%] bg-second rounded-2xl mt-15 mb-10 sm:w-[40%]">
+        <div class="w-[70%] lg:flex justify-center gap-10 mx-auto mt-10">
+            <div class="w-[80%] sm:ms-[50px] lg:w-[50%] bg-second rounded-2xl mt-15 mb-10 p-2">
                 <div class="">
-                    <svg class="w-[24px] p-[5px] bg-amber-500 rounded-[50%] ms-[10px] mt-[50px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
-                    <div class="">
-                    <h2 class="font-mono text-xs text-white font-semibold ms-[45px] mt-[-38px]">Address:</h2>
-                    <p class="font-serif text-[10px] text-white ms-[45px]">Ranirbandar, Chirirbandar <br>Dinajpur, Bangladesh</p>
+                    <svg class="w-[40px] p-[10px] bg-amber-500 rounded-[50%] ms-[10px] mt-[60px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                    <div class="mt-[-50px]">
+                    <h2 class="font-mono text-lg text-white font-semibold ms-[65px] mt-[-20px] md:mt-[-60px]">Address:</h2>
+                    <p class="font-serif text-base text-white ms-[65px]">Ranirbandar, Chirirbandar <br>Dinajpur, Bangladesh</p>
                     </div>
                 </div>
                 <div class="">
-                    <svg class="w-[24px] p-[5px] bg-amber-500 rounded-[50%] ms-[10px] mt-[20px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+                    <svg class="w-[40px] p-[10px] bg-amber-500 rounded-[50%] ms-[10px] mt-[30px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
                     <div class="">
-                    <h2 class="font-mono text-xs text-white font-semibold ms-[45px] mt-[-35px]">Email:</h2>
-                    <p class="font-serif text-[10px] text-white ms-[45px] sm:text-[8px]">mahfijum886@gmail.com <br>mdmahfijurrahman996@gmail.com</p>
+                    <h2 class="font-mono text-lg text-white font-semibold ms-[65px] mt-[-50px]">Email:</h2>
+                    <p class="font-serif text-base text-white ms-[65px] ">mahfijum886@gmail.com <br>mdmahfijurrahman996@gmail.com</p>
                     </div>
                 </div>
                 <div class="">
-                    <svg class="w-[24px] p-[5px] bg-amber-500 rounded-[50%] ms-[10px] mt-[20px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg>
+                    <svg class="w-[40px] p-[10px] bg-amber-500 rounded-[50%] ms-[10px] mt-[30px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg>
                     <div class="">
-                    <h2 class="font-mono text-xs text-white font-semibold ms-[45px] mt-[-35px]">Phone:</h2>
-                    <p class="font-serif text-[10px] text-white ms-[45px]">+8801306600299 <br>+8801774041440</p>
+                    <h2 class="font-mono text-lg text-white font-semibold ms-[65px] mt-[-50px]">Phone:</h2>
+                    <p class="font-serif text-base text-white ms-[65px] mb-10">+8801306600299 <br>+8801774041440</p>
                     </div>
                 </div>
         
 
             </div>
-            <div class="w-[68%] mt-3 mb-8 sm:w-[60%]">
-                <div class="flex justify-start mx-auto gap-4">
+            <div class="w-[80%] md:w-[65%] mt-3 mb-8">
+                <div class="flex lg:justify-start justify-center sm:ms-[60px] md:ms-[150px] ms-[20px] lg:mx-auto gap-4">
                     <div class="form-group">
                         <label for="name"></label>
-                        <input class="w-[200px] bg-slate-200 rounded-xl p-1 text-sm ms-[20px] sm:w-[170px]" type="text"name="name"id="name"placeholder="Name">
+                        <input class="w-[250px]  md:w-[300px] lg:w-[250px] bg-slate-200 rounded-xl p-1 text-base ms-[20px] lg:ms-[2px]" type="text"name="name"id="name"placeholder="Name">
                     </div>
                     <div class="form-group">
                         <label for="e-mail"></label>
-                        <input class="w-[200px] bg-slate-200 rounded-xl p-1 text-sm sm:w-[170px]" type="e-mail"name="name"id="e-mail"placeholder="E-mail">
+                        <input class="w-[250px] md:w-[300px] lg:w-[250px] bg-slate-200 rounded-xl p-1 text-base" type="e-mail"name="name"id="e-mail"placeholder="E-mail">
                     </div>
-                </div>
-                <div class="flex justify-start mx-auto gap-4 mt-4">
+                </div>    
+                <div class="flex lg:justify-start justify-center sm:ms-[60px] md:ms-[150px] ms-[20px] lg:mx-auto gap-4 mt-4">
                     <div class="form-group">
                         <label for="phone"></label>
-                        <input class="w-[200px] bg-slate-200 rounded-xl p-1 text-sm ms-[20px] sm:w-[170px]" type="phone"name="name"id="phone"placeholder="Phone">
+                        <input class="w-[250px] md:w-[300px] lg:w-[250px] bg-slate-200 rounded-xl p-1 text-base ms-[20px] lg:ms-[2px]" type="phone"name="name"id="phone"placeholder="Phone">
                     </div>
                     <div class="form-group">
                         <label for="phone"></label>
-                        <input class="w-[200px] bg-slate-200 rounded-xl p-1 text-sm sm:w-[170px]" type="phone"name="name"id="phone"placeholder="Subject">
+                        <input class="w-[250px] md:w-[300px] lg:w-[250px] bg-slate-200 rounded-xl p-1 text-base" type="phone"name="name"id="phone"placeholder="Subject">
                     </div>
                 </div>
-                <div class="mt-4 ms-[20px]">
+                <div class="mt-4 sm:ms-[-38px] ms-[-30px] md:ms-[-50px] lg:ms-[2px]">
                     <div class="form-group">
                         <label for="message"></label>
-                        <textarea class="w-[420px] bg-slate-200 rounded-xl p-1 text-sm sm:w-[355px]" name="message" id="message" cols="50" rows="4" placeholder="Message"></textarea>
+                        <textarea class="w-[520px] md:w-[620px] lg:w-[520px] bg-slate-200 rounded-3xl p-1 text-base" name="message" id="message" cols="50" rows="6" placeholder="Message"></textarea>
                     </div>
                 </div>
-                <button class="bg-amber-500 px-[40px] py-[10px] rounded-3xl text-xs text-white mt-[25px] ms-[30px] font-mono font-semibold hover:bg-second hover:text-first">Submit</button>
+                <button class="bg-amber-500 px-[40px] py-[10px] rounded-3xl text-base text-white mt-[45px] ms-[160px] md:ms-[190px] font-mono font-semibold hover:bg-second hover:text-first">Submit</button>
             </div>
         </div>
     </section>
